@@ -12,7 +12,7 @@ import SwiftyJSON
 
 class InfoViewController: UIViewController {
     
-    let infoID = shuffleResultsVariable.shuffleResults
+    let infoID = Global.shuffleResults
     @IBOutlet weak var infoText: UITextView!
     
     override func viewDidLoad() {

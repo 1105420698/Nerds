@@ -27,6 +27,7 @@ class StartViewController: UIViewController {
     @IBAction func start(_ sender: Any) {
         
         Alamofire.request("http://numericdesign.org/services/updateService.php").responseJSON { (responseData) -> Void in
+            //Make sure the data is processed only if the data is not an empty string
             if((responseData.result.value) != nil) {
                 let swiftyJsonVar = JSON(responseData.result.value!)
                 
