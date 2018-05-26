@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         
         names.text = "Massachusetts Institution of Technology"
         
-         let startUrl = URL(string: "http://numericdesign.org/Resources/0.jpg")
+        let startUrl = URL(string: "http://numericdesign.org/Resources/0.jpg")
         
         backgrounds.kf.setImage(with: startUrl)
     }
