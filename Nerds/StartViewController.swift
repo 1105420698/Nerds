@@ -26,11 +26,11 @@ class StartViewController: UIViewController {
  
     @IBAction func start(_ sender: Any) {
         
-        Alamofire.request("http://numericdesign.org/updateService.php").responseJSON { (responseData) -> Void in
+        Alamofire.request("http://numericdesign.org/services/updateService.php").responseJSON { (responseData) -> Void in
             if((responseData.result.value) != nil) {
                 let swiftyJsonVar = JSON(responseData.result.value!)
                 
-                if let update_result = swiftyJsonVar[0]["update_indicator"].string {
+                if let update_result = swiftyJsonVar[0]["update"].string {
                     print(update_result)
                     
                     if update_result == "false" {

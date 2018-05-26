@@ -3,14 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		033ACDDA20352A46007A7FFC /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033ACDDB20352A46007A7FFC /* Kingfisher.framework */; };
+		03586ED520BA0C5C0007F8A0 /* AlamofireSwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03586ED420BA0C5C0007F8A0 /* AlamofireSwiftyJSON.framework */; };
 		0385988C2036667800B72BFE /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0385988B2036667800B72BFE /* InfoViewController.swift */; };
-		039E98482038D041004F36E6 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039E98492038D041004F36E6 /* SwiftyJSON.framework */; };
-		039E984A2038D21E004F36E6 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039E984B2038D21E004F36E6 /* Alamofire.framework */; };
 		039FC98D1FEA76CC00F84B67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039FC98C1FEA76CC00F84B67 /* AppDelegate.swift */; };
 		039FC98F1FEA76CC00F84B67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039FC98E1FEA76CC00F84B67 /* ViewController.swift */; };
 		039FC9921FEA76CC00F84B67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 039FC9901FEA76CC00F84B67 /* Main.storyboard */; };
@@ -23,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		033ACDDB20352A46007A7FFC /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03586ED420BA0C5C0007F8A0 /* AlamofireSwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AlamofireSwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		03732C9B20352893005DDE21 /* CarthageKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CarthageKit.framework; path = ../../../Downloads/CarthageKit.framework; sourceTree = "<group>"; };
 		0385988B2036667800B72BFE /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		039E98492038D041004F36E6 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,9 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				039E984A2038D21E004F36E6 /* Alamofire.framework in Frameworks */,
-				039E98482038D041004F36E6 /* SwiftyJSON.framework in Frameworks */,
-				033ACDDA20352A46007A7FFC /* Kingfisher.framework in Frameworks */,
+				03586ED520BA0C5C0007F8A0 /* AlamofireSwiftyJSON.framework in Frameworks */,
 				CF164274073C487CDB4DDA86 /* Pods_Nerds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +93,7 @@
 		29967A8044EA30B3DD74374E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				03586ED420BA0C5C0007F8A0 /* AlamofireSwiftyJSON.framework */,
 				039E984B2038D21E004F36E6 /* Alamofire.framework */,
 				039E98492038D041004F36E6 /* SwiftyJSON.framework */,
 				03EA1E832038CBF60017A58D /* JSON.framework */,
@@ -127,7 +125,6 @@
 				039FC9861FEA76CC00F84B67 /* Frameworks */,
 				039FC9871FEA76CC00F84B67 /* Resources */,
 				BA6F6DCCCDA21C50E8441880 /* [CP] Embed Pods Frameworks */,
-				521153AB5F3638696E32BEC4 /* [CP] Copy Pods Resources */,
 				03732C9A20352815005DDE21 /* ShellScript */,
 			);
 			buildRules = (
@@ -173,7 +170,7 @@
 				};
 			};
 			buildConfigurationList = 039FC9841FEA76CC00F84B67 /* Build configuration list for PBXProject "Nerds" */;
-			compatibilityVersion = "Xcode 8.0";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -218,21 +215,6 @@
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
-		521153AB5F3638696E32BEC4 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nerds/Pods-Nerds-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		A390B07BFBD0984793B0D7C8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -259,13 +241,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Nerds/Pods-Nerds-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireSwiftyJSON/AlamofireSwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireSwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,6 +339,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -408,7 +391,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -422,8 +406,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C58CLY4K2U;
 				INFOPLIST_FILE = Nerds/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.numericdesign.Nerds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -440,8 +427,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C58CLY4K2U;
 				INFOPLIST_FILE = Nerds/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.numericdesign.Nerds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
