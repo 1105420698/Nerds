@@ -30,7 +30,7 @@ class StartViewController: UIViewController {
             if((responseData.result.value) != nil) {
                 let swiftyJsonVar = JSON(responseData.result.value!)
                 
-                if let update_result = swiftyJsonVar[0]["update"].string {
+                if let update_result = swiftyJsonVar[0]["update_light"].string {
                     print(update_result)
                     
                     if update_result == "false" {
