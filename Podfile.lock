@@ -1,24 +1,28 @@
 PODS:
-  - Alamofire (4.6.0)
+  - Alamofire (4.7.2)
   - AlamofireSwiftyJSON (1.0.1):
     - Alamofire (~> 4.0)
     - SwiftyJSON (~> 4.0)
-  - SwiftyJSON (4.0.0)
+  - Kingfisher (4.8.0)
+  - SwiftyJSON (4.1.0)
 
 DEPENDENCIES:
   - AlamofireSwiftyJSON
+  - Kingfisher
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - AlamofireSwiftyJSON
+    - Kingfisher
     - SwiftyJSON
 
 SPEC CHECKSUMS:
-  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
   AlamofireSwiftyJSON: ad896b68b586aea5de8ddba641ad3b402b8d5511
-  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
 
-PODFILE CHECKSUM: d2550b5190efde9fae2d563febc8e017544fc5e1
+PODFILE CHECKSUM: 3f55d4cf8405e3d141591203b3c842beded9d309
 
 COCOAPODS: 1.5.2

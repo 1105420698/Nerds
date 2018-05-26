@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		03586ED520BA0C5C0007F8A0 /* AlamofireSwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03586ED420BA0C5C0007F8A0 /* AlamofireSwiftyJSON.framework */; };
 		0385988C2036667800B72BFE /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0385988B2036667800B72BFE /* InfoViewController.swift */; };
+		039042CF20BA0FF2000D116A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039042CE20BA0FF2000D116A /* Alamofire.framework */; };
+		039042D320BA0FF8000D116A /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039042D220BA0FF8000D116A /* SwiftyJSON.framework */; };
+		039042D520BA132E000D116A /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039042D420BA132E000D116A /* Kingfisher.framework */; };
 		039FC98D1FEA76CC00F84B67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039FC98C1FEA76CC00F84B67 /* AppDelegate.swift */; };
 		039FC98F1FEA76CC00F84B67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039FC98E1FEA76CC00F84B67 /* ViewController.swift */; };
 		039FC9921FEA76CC00F84B67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 039FC9901FEA76CC00F84B67 /* Main.storyboard */; };
@@ -20,11 +23,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		033ACDDB20352A46007A7FFC /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		03586ED420BA0C5C0007F8A0 /* AlamofireSwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AlamofireSwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		03732C9B20352893005DDE21 /* CarthageKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CarthageKit.framework; path = ../../../Downloads/CarthageKit.framework; sourceTree = "<group>"; };
 		0385988B2036667800B72BFE /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
-		039E98492038D041004F36E6 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		039042CE20BA0FF2000D116A /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		039042D220BA0FF8000D116A /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		039042D420BA132E000D116A /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		039E984B2038D21E004F36E6 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		039FC9891FEA76CC00F84B67 /* Nerds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nerds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		039FC98C1FEA76CC00F84B67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,7 +39,6 @@
 		03CE92D1202BE3540000A7AF /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		03CE92D3202BE41D0000A7AF /* Nerds.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nerds.entitlements; sourceTree = "<group>"; };
 		03CE92D8202D02E70000A7AF /* OopsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OopsViewController.swift; sourceTree = "<group>"; };
-		03EA1E832038CBF60017A58D /* JSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		995BD6A3CCF1BD49732F554B /* Pods-Nerds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nerds.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nerds/Pods-Nerds.debug.xcconfig"; sourceTree = "<group>"; };
 		DA95CEFCE85B8D202A203007 /* Pods_Nerds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nerds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE17298FA54859E9D291B4B /* Pods-Nerds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nerds.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nerds/Pods-Nerds.release.xcconfig"; sourceTree = "<group>"; };
@@ -47,6 +49,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				039042D520BA132E000D116A /* Kingfisher.framework in Frameworks */,
+				039042D320BA0FF8000D116A /* SwiftyJSON.framework in Frameworks */,
+				039042CF20BA0FF2000D116A /* Alamofire.framework in Frameworks */,
 				03586ED520BA0C5C0007F8A0 /* AlamofireSwiftyJSON.framework in Frameworks */,
 				CF164274073C487CDB4DDA86 /* Pods_Nerds.framework in Frameworks */,
 			);
@@ -93,12 +98,11 @@
 		29967A8044EA30B3DD74374E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				039042D420BA132E000D116A /* Kingfisher.framework */,
+				039042D220BA0FF8000D116A /* SwiftyJSON.framework */,
+				039042CE20BA0FF2000D116A /* Alamofire.framework */,
 				03586ED420BA0C5C0007F8A0 /* AlamofireSwiftyJSON.framework */,
 				039E984B2038D21E004F36E6 /* Alamofire.framework */,
-				039E98492038D041004F36E6 /* SwiftyJSON.framework */,
-				03EA1E832038CBF60017A58D /* JSON.framework */,
-				033ACDDB20352A46007A7FFC /* Kingfisher.framework */,
-				03732C9B20352893005DDE21 /* CarthageKit.framework */,
 				DA95CEFCE85B8D202A203007 /* Pods_Nerds.framework */,
 			);
 			name = Frameworks;
@@ -144,7 +148,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0930;
-				ORGANIZATIONNAME = "Runkai Ken Nico Zhang";
+				ORGANIZATIONNAME = "Numeric Design";
 				TargetAttributes = {
 					039FC9881FEA76CC00F84B67 = {
 						CreatedOnToolsVersion = 9.2;
@@ -207,7 +211,6 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
 			);
 			outputPaths = (
 			);
@@ -242,12 +245,14 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Nerds/Pods-Nerds-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireSwiftyJSON/AlamofireSwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireSwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

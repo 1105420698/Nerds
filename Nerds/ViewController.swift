@@ -7,7 +7,7 @@
 //
 
 import UIKit
-//import Kingfisher
+import Kingfisher
 import Alamofire
 import SwiftyJSON
 
@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         
         let startUrl = URL(string: "http://numericdesign.org/Resources/0.jpg")
         
-        //backgrounds.kf.setImage(with: startUrl)
+        backgrounds.kf.setImage(with: startUrl)
     }
 
     override func didReceiveMemoryWarning() {
@@ -85,7 +85,7 @@ class ViewController: UIViewController {
             imageID = infoID
             print(imageID)
             
-            //backgrounds.kf.setImage(with: url)
+            backgrounds.kf.setImage(with: url)
             
             Alamofire.request("http://numericdesign.ddns.net/nameService.php").responseJSON { (responseData) -> Void in
                 if((responseData.result.value) != nil) {
